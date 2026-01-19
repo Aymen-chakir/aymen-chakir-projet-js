@@ -137,6 +137,7 @@ nav>div>h1>span {
 .left4 img{
     width: 650px;
 }
+
 .cadre{
     width: 650px;
     height: 100px;
@@ -145,6 +146,7 @@ nav>div>h1>span {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #F2F2F2;
 }
 .cadre h1{
     color: #CE1212;
@@ -178,4 +180,70 @@ li i{
 }
 .para{
     color: rgb(103, 100, 100);
+}
+
+/* card ssection */
+.chosepart{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+}
+.parent-card{
+    width:90% ;
+    height: 80%;
+    display: flex;
+    gap: 20px;
+}
+.grandiv{
+    width: 35vw;
+    background-color: #CE1212;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-inline: 20px;
+}
+.cardiv{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    gap: 30px;
+    padding-inline: 20px;
+    background-color: #FFFFFF;
+}
+.cardiv i{
+    width: 50px;
+    height: 50px;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #CE1212;
+    background-color: #F2F2F2;
+}
+.cardiv p{
+    color: gray;
+}
+.grandiv button{
+    width: 180px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.13);
+    border: none;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.grandiv > button > a{
+    text-decoration: none;
+        color: aliceblue;
+
 }
