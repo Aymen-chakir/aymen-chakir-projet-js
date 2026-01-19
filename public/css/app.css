@@ -4,6 +4,7 @@
     box-sizing: border-box;
     overflow-x: hidden
 }
+
 /* this is style of nav*-bar */
 nav {
     width: 100vw;
@@ -44,14 +45,15 @@ nav>div>h1>span {
 
 }
 
-.button a{
+.button a {
     color: aliceblue;
     text-decoration: none;
 
 
 }
+
 /* this is style of secound section */
-.nextnav{
+.nextnav {
     width: 100vw;
     height: 80vh;
     display: flex;
@@ -59,42 +61,51 @@ nav>div>h1>span {
     align-items: center;
     background-color: #12cecb;
 }
-.nextnav >div > img{
+
+.nextnav>div>img {
     width: 450px;
 }
-.leftNext{
+
+.leftNext {
     display: flex;
     flex-direction: column;
     gap: 20px;
     font-size: large;
 }
-.leftNext > div >h1{
+
+.leftNext>div>h1 {
     font-family: "Macondo", cursive;
     color: rgb(54, 53, 53);
 }
-.leftNext > p {
+
+.leftNext>p {
     color: gray;
 }
-.child{
+
+.child {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-#video{
+
+#video {
     text-decoration: none;
     color: rgb(54, 53, 53);
 }
-.fa-circle-play{
+
+.fa-circle-play {
     color: #CE1212;
     font-size: large;
 }
-.child2{
+
+.child2 {
     width: 150px;
     display: flex;
 
 }
+
 /* style of about section */
-.about{
+.about {
     width: 100vw;
     height: 130vh;
     display: flex;
@@ -103,7 +114,8 @@ nav>div>h1>span {
     align-items: center;
     background-color: #12cecb;
 }
-.child3{
+
+.child3 {
     width: 100%;
     height: 20%;
     display: flex;
@@ -111,34 +123,39 @@ nav>div>h1>span {
     align-items: center;
     justify-content: center;
 }
-.child3 > h1{
-        font-family: "Macondo", cursive;
-            color: rgb(54, 53, 53);
+
+.child3>h1 {
+    font-family: "Macondo", cursive;
+    color: rgb(54, 53, 53);
 
 }
-.child3 > h1 > span{
+
+.child3>h1>span {
     color: #CE1212;
 }
-.child4{
+
+.child4 {
     width: 100%;
     height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.left4{
+
+.left4 {
     width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: end;
-    gap: 20px; 
+    gap: 20px;
 }
-.left4 img{
+
+.left4 img {
     width: 650px;
 }
 
-.cadre{
+.cadre {
     width: 650px;
     height: 100px;
     border: 3px gray solid;
@@ -148,10 +165,12 @@ nav>div>h1>span {
     justify-content: center;
     background-color: #F2F2F2;
 }
-.cadre h1{
+
+.cadre h1 {
     color: #CE1212;
 }
-.right4{
+
+.right4 {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -159,31 +178,37 @@ nav>div>h1>span {
     align-items: center;
     gap: 50px;
 }
-.right4 div{
+
+.right4 div {
     width: 80%;
     height: 50%;
 }
-.right4 > div > img{
+
+.right4>div>img {
     width: 450px;
 }
-li{
+
+li {
     display: flex;
 }
-li i{
+
+li i {
     color: #CE1212;
     padding-right: 20px;
 }
-.top-4{
+
+.top-4 {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.para{
+
+.para {
     color: rgb(103, 100, 100);
 }
 
 /* card ssection */
-.chosepart{
+.chosepart {
     width: 100vw;
     height: 70vh;
     display: flex;
@@ -191,13 +216,15 @@ li i{
     align-items: center;
     background-color: #F2F2F2;
 }
-.parent-card{
-    width:90% ;
+
+.parent-card {
+    width: 90%;
     height: 80%;
     display: flex;
     gap: 20px;
 }
-.grandiv{
+
+.grandiv {
     width: 35vw;
     background-color: #CE1212;
     color: aliceblue;
@@ -207,17 +234,19 @@ li i{
     align-items: center;
     padding-inline: 20px;
 }
-.cardiv{
+
+.cardiv {
     width: 25vw;
     display: flex;
     flex-direction: column;
-    justify-content:center ;
+    justify-content: center;
     align-items: center;
     gap: 30px;
     padding-inline: 20px;
     background-color: #FFFFFF;
 }
-.cardiv i{
+
+.cardiv i {
     width: 50px;
     height: 50px;
     font-size: xx-large;
@@ -228,10 +257,12 @@ li i{
     color: #CE1212;
     background-color: #F2F2F2;
 }
-.cardiv p{
+
+.cardiv p {
     color: gray;
 }
-.grandiv button{
+
+.grandiv button {
     width: 180px;
     height: 40px;
     background-color: rgba(255, 255, 255, 0.13);
@@ -242,14 +273,15 @@ li i{
     align-items: center;
     border-radius: 20px;
 }
-.grandiv > button > a{
+
+.grandiv>button>a {
     text-decoration: none;
-        color: aliceblue;
+    color: aliceblue;
 
 }
 
 /* section statistique  */
-.Statistics{
+.Statistics {
     width: 100vw;
     height: 60vh;
     background-image: url(../images/Yummy/Yummy/stats-bg.jpg);
@@ -260,11 +292,114 @@ li i{
     align-items: center;
     font-size: x-large;
     /* filter: brightness(0.6); */
-    
+
 }
-.Statistics > div > h1{
+
+.Statistics>div>h1 {
     color: aliceblue;
 }
-.Statistics > div > p{
+
+.Statistics>div>p {
     color: #28425B;
+}
+
+
+/* menu */
+.topmenu {
+    width: 100vw;
+    height: 15vh;
+    background-color: #28425B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topmenu p {
+    color: gray;
+}
+
+.topmenu span {
+    color: #CE1212;
+    font-family: "Macondo", cursive;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer {
+    background: #111;
+    color: #fff;
+    padding: 40px 20px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-box {
+    flex: 1 1 200px;
+    min-width: 200px;
+}
+
+.footer-box>div {
+    display: flex;
+    gap: 10px;
+
+}
+
+.footer-box>div>h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #12cecb;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.footer-box>div>h3>p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #ccc;
+}
+
+.icon {
+    margin-right: 6px;
+}
+
+.socail>a {
+    display: inline-block;
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+    border: 1px solid;
+    border-radius: 50%;
+    color: #28425B;
+    font-size: 14px;
+    text-align: center;
+    line-height: 32px;
+    text-decoration: none;
+    color: gray;
+}
+.copyright {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #333;
+    font-size: 14px;
+    color: #bbb;
 }
