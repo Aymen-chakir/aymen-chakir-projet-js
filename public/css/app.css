@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/* this is style of nav*-bar */
 nav {
     width: 100vw;
     height: 90px;
@@ -47,5 +47,48 @@ nav>div>h1>span {
     color: aliceblue;
     text-decoration: none;
 
+
+}
+/* this is style of secound section */
+.nextnav{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #12cecb;
+}
+.nextnav >div > img{
+    width: 450px;
+}
+.leftNext{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: large;
+}
+.leftNext > div >h1{
+    font-family: "Macondo", cursive;
+    color: rgb(54, 53, 53);
+}
+.leftNext > p {
+    color: gray;
+}
+.child{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#video{
+    text-decoration: none;
+    color: rgb(54, 53, 53);
+}
+.fa-circle-play{
+    color: #CE1212;
+    font-size: large;
+}
+.child2{
+    width: 150px;
+    display: flex;
 
 }
