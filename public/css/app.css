@@ -247,3 +247,24 @@ li i{
         color: aliceblue;
 
 }
+
+/* section statistique  */
+.Statistics{
+    width: 100vw;
+    height: 60vh;
+    background-image: url(../images/Yummy/Yummy/stats-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: x-large;
+    /* filter: brightness(0.6); */
+    
+}
+.Statistics > div > h1{
+    color: aliceblue;
+}
+.Statistics > div > p{
+    color: #28425B;
+}
