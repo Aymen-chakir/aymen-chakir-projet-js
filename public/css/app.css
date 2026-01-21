@@ -12,7 +12,6 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: aqua;
 }
 
 nav>div>h1 {
@@ -59,7 +58,6 @@ nav>div>h1>span {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #12cecb;
 }
 
 .nextnav>div>img {
@@ -112,7 +110,6 @@ nav>div>h1>span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #12cecb;
 }
 
 .child3 {
@@ -308,7 +305,6 @@ li i {
 .topmenu {
     width: 100vw;
     height: 15vh;
-    background-color: #28425B;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -417,14 +413,21 @@ li i {
 
 
 /* caroussel card */
-
+.caroussel1{
+    
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .carousel {
+    
     position: relative;
     width: 80%;
     max-width: 900px;
     height: 400px;
     overflow: hidden;
+    border: 2px solid #e63946;
 }
 
 .slide {
